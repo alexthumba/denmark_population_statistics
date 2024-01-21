@@ -6,8 +6,8 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 
-api = 'https://github.com/alexthumba/streamlitdeploymenttesting/blob/main/data.csv?raw=true'
-#
+api = 'https://github.com/alexthumba/denmark_population_statistics/blob/main/data.csv?raw=true'
+#https://github.com/alexthumba/streamlitdeploymenttesting/blob/main/data.csv
 #api = 'C:/Users/alext/OneDrive/Documents/Analytics/dkcensus/PopulationStatistics/dashboard/transform/df.csv'
 df = pd.read_csv(api,index_col=0)
 df.head()
